@@ -7,14 +7,16 @@ using System.Threading.Tasks;
 
 namespace MovieManagement.Library.Data
 {
-    public class DataRepository
+    public class DataRepository : IDataRepository
     {
+
         private static List<MovieModel> _movies = new()
         {
-            new MovieModel { Id = 1, Name = "Inception", Cost = 560 },
-            new MovieModel { Id = 2, Name = "Spiderman", Cost = 300 }
+            new MovieModel { Id = 1, Name = "Test Movie 1", Cost = 200m },
+            new MovieModel { Id = 2, Name = "Test Movie 2", Cost = 300m }
 
         };
+
 
         public MovieModel AddMovie(MovieModel movie)
         {
