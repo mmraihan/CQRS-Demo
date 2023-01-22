@@ -12,8 +12,8 @@ namespace MovieManagement.Library.Data
 
         private static List<MovieModel> _movies = new()
         {
-            new MovieModel { Id = 1, Name = "Test Movie 1", Cost = 200m },
-            new MovieModel { Id = 2, Name = "Test Movie 2", Cost = 300m }
+            new MovieModel { Id = 1, Name = "Inception", Cost = 200m },
+            new MovieModel { Id = 2, Name = "The Blood Diamond", Cost = 300m }
 
         };
 

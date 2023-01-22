@@ -11,5 +11,6 @@ namespace MovieManagement.Library.Data
     {
         List<MovieModel> GetMovies();
         MovieModel AddMovie(MovieModel movie);
+
     }
 }
